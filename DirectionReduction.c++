@@ -31,7 +31,8 @@ class DirectionReduction {
 				
 				// This condition is important becauase ti checks the back of 
 				// the result vector, if the direction in the back of result 
-				// vector is an opposite direction of the next direction in				      // my_vec, which may be pushed in the result vector, pop
+				// vector is an opposite direction of the next direction in				      
+				// my_vec, which may be pushed in the result vector, pop
 				// the back of the result vector
 				if( result_vec_size > 0 && my_map.find( result_vec.back())->second.compare(my_vec[ i ] ) == 0 ) 
 		 	
